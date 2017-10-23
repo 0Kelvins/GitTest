@@ -9,8 +9,9 @@ $ ssh-keygen -t rsa -C "Github账号"   #生成ssh秘钥
 
 记一下部分常用命令
 ```
-$ git init                                 # 初始化本地仓库
-$ git add README.md                        # 添加文档文件到暂存区
+$ git init                                # 初始化本地仓库
+$ git add README.md                       # 添加文档文件到暂存区
+$ git rm README.md                        # 删除文件
 $ git commit -m "添加 README.md 文件"      # 提交暂存区的文件及备注到当前分支
 
 $ git remote add origin git@github.com:0Kelvins/GitTest.git #添加远程仓库源
