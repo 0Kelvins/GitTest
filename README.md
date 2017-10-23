@@ -2,7 +2,7 @@
 用过SVN，学一下Git
 
 ```
-$ ssh -keygen -t rsa -C "Github账号"   #生成ssh秘钥
+$ ssh-keygen -t rsa -C "Github账号"   #生成ssh秘钥
 ```
 1. 后面会提示输入存放路径以及文件名（/d/github/key），然后密码设置
 2. 到Github上把刚生成的key.pub
